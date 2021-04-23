@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlist</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/GDux4uuC1tRaoNa-4IMyuPJiwW-0UKCjUHUkhLPkrrMTqBIoOaY55XFn4nWcWUVbaqGRwPoi7TO0jfsXSn8ByP3KYdaNGjubVbipKNImKBOP6eG_I50TLAmDyUrkwrtC-xb8np8JOmJqbaGhiPJU5S0MZOZO35Y-ohRwX9ZpsmWZ5GpVOf_NivYKUnd57Fx3zzQ5UDV9e9A5Nw-KGHJRuEcgWy3QUVJ63F1aL4g3jOl6SMgLeEwfDs_QY3-R100DUtA-9JxgzLF6KhV14e8L7tu-uQAGvWyUzhY2KSMUqnrgQxZFLSKoim7BqNa_8d3X05AuZ2otGxTMFcommU74YIYQmdSvjqpl0DashVWKQL497iSfFL4mF5u3UzxYSXQwdY0CK8-3LpNQoY9cvUz2RdJAqIkiOisgNKVGyLWCgMsKcN1BQanhh8e_GTYuOURdxkfslEMhswzJok4cjONxTVOAP1r-edE1EWY0ibbdU-z0TSWDbnO5QdBd6SknzNw_YqiDyg6iJzyrn69fPOJlmq6goo3-dYVbACqbOcksKGeV0xZB05rQajafbHv8lwMAc-uP-7de_6g-ZcYwA6KRbo41wkBKpTJqjb7hKHSy9BUqUkc0TxafCYv8t74OZX4kCiI3A5tvBS7xH_ZAi1xbnrur33FESAy9bhCFfqpa4kzV5RVSZ1yfkkt6Vs1W-8bFGAgtiO1kt9sMbywJMIGsKw=s32-no?authuser=0">
+
+</head>
+<body>
+    <form action="./index.html" method="POST" target="_self"></form>
+        <ul>
+            <!--Input text-->
+            <li>
+                <label for="nombre">Nombre: </label><input type="text" name="nombre">
+            </li>
+            <li>
+                <label for="apellido">Apellido: </label><input type="text" name="apellido">
+            </li>
+            <!--Input number-->
+            <li>
+                <label for="edad">Edad: </label><input type="number" name="edad">
+            </li>
+            <li>
+            <!--Input email-->
+                <label for="email">Email: </label><input type="email" name="email">
+            </li>
+            <!--Input password-->
+            <li>
+                <label for="password">Password: </label><input type="password" name="password" placeholder="Introduce tu clave">
+            </li>
+            <!--Select ocupación-->
+            <li>
+                <label for="ocupación">Ocupación</label>
+                <select name="ocupación">
+                     <option value="estudiante">Estudiante</option>
+                     <option value="profesional">Profesional</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </li>
+                <!--Radiobuttom hora de contacto-->
+            <li>
+                <label for="hora de contacto">Hora de contacto:</label>
+                <input type="radio"id="a la mañana"name="hora de contacto" value="a la mañana">
+                <label for="mañana">A la mañana</label>
+                <input type="radio"id="al mediodía"name="hora de contacto" value="al mediodía">
+                <label for="mediodía">Al mediodía</label>
+                <input type="radio"id="a la tarde"name="hora de contacto" value="a la tarde">
+                <label for="tarde">A la tarde</label>
+            </li>
+            <!--Textarea-->
+            <li>
+                <label for="agregue un comentario">Agregue un comentario</label><br>
+                <textarea name="textarea"  id="" cols="30" rows="10"></textarea>
+            </li>
+            <li>
+                <label for="checkbox">Deseo recibir a mi email más información: </label>
+                <input type="checkbox" name="opción1" id="opción1" value="si">
+                <label for="opción1">Si, por favor</label>
+                <input type="checkbox" name="opción2" id="opción2" value="no">
+                <label for="opción2">No, gracias</label>
+            </li>
+            <!--Input submit-->
+            <li>
+                <input type="submit" value="enviar">
+            </li>
+        </ul>
+</body>
+</html>
